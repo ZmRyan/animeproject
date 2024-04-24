@@ -1,0 +1,13 @@
+{
+    "name": "AnimeAzureSynapse",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSynapseArtifacts",
+        "typeProperties": {
+            "endpoint": "https://anime-sa.dev.azuresynapse.net",
+            "authentication": "MSI",
+            "workspaceResourceId": "/subscriptions/56ea60c9-c9ee-4998-a216-a6cd6b05ce22/resourceGroups/damg-7370-anime-project/providers/Microsoft.Synapse/workspaces/anime-sa"
+        }
+    }
+}

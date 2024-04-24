@@ -1,0 +1,24 @@
+{
+    "name": "Refresh",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Stopped",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "data-ingestion",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Hour",
+                "interval": 24,
+                "startTime": "2024-04-22T14:00:00",
+                "timeZone": "Pacific Standard Time"
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "UserScoreHttp",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "HttpServer",
+        "typeProperties": {
+            "url": "https://media.githubusercontent.com/media/zm3004/anime_data/main/users-score-2023.csv",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Anonymous"
+        }
+    }
+}
